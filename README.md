@@ -52,23 +52,3 @@ Hotfixes are used to addess quick correction of a bug or a defect usually to exp
     $ git push origin branchName                            // pushes changes to remote repository
     $ git fetch origin branchName                           // Downloads the changes, but they won't be applied, they will stay in staging
     $ git merge                                             // Downloaded changes will be applied
-```
-
-### Git Fetch vs Git Pull 
-
-```
-The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo and if you want to merge your changes fetched by git fetch, switch to the branch of your choice and then do a git merge. The git pull command does both
-```
-
-#### GIT Has Branch Protection Rules Enabled to ensure you cannot push your changes directly to the MAIN Branch and always changes has to go through Pull Request only.
-
-
-### PS :
-
-```
-Whenever you push any changes and if they look good and stable on main branch, then you will raise/create a create a Git Tag.
-Git Tag : Creating a name to a commit, which can referenced later and using that we can make the software.
-Git and Linux are like oceans, infinite things are there to learn. Both of them are created by the same person : Linux Torvolds.
-```
-
-#### GIT Has Branch Protection Rules Enabled to ensure you cannot push your changes directly to the MAIN Branch and always changes has to go through Pull Request only.
